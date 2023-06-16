@@ -1,0 +1,106 @@
+*{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Lato;
+  background: #333;
+}
+.container>*{
+  padding: 10px;
+}
+.container{
+  width: 400px;
+  background: #f4f4f4;
+  padding: 40px;
+  display: block;
+  margin: 80px auto 80px;
+  text-align: center;
+}
+.logo{
+  margin-top: 20px;
+}
+.logo h2{
+  font-weight: 400;
+  background: #16074e;
+  color: #fff;
+  display: inline;
+  padding: 5px 10px;
+  font-size: 30px;
+  border: 3px solid #f4f4f4;
+  outline: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form{
+  margin-top: 50px;
+  font-weight: 300;
+}
+.login-form .input_label{
+  display: block;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.login-form .textBoxes{
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  font-family: Lato;
+  padding: 5px;
+  color: #333;
+  opacity: 0.8;
+}
+button{
+  display: block;
+  font-weight: 300;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 8px;
+  background: #16074e;
+  border: 3px solid #e3b571;
+  border-radius: 20px;
+  color: #fff;
+  transition: .3s background ease-in-out;
+}
+button:hover{
+  background: #0064ac;
+  border: 3px solid #16074e;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+.footer p{
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
+.error{
+  //border:2px solid #db0707;
+}
+#pwdError, #emlError{
+  display: none;
+  text-align: left;
+  margin-top:5px;
+  color: #db0707;
+  font-weight:400;
+  font-size: 14px;
+}
+#msg{
+  display: none;
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,0 +1,14 @@
+body#page-top
+{
+	  background-image: url(login-page-bg.jpg);
+  background-size: cover;
+ /* height: 100vh;*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav#mainNav {
+    background: #09054ee6;
+}
+ul#exampleAccordion {
+    background: #09054ee6;
+}
